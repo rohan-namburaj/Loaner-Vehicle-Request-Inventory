@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>th-large</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <short_description>View visual reports on the current status of the loaner vehicles</short_description>
+        <size>md</size>
+        <sp_column display_value="3">35cde44a83a2021068be55b6feaad3b6</sp_column>
+        <sp_page display_value="warehouse_dashboard">11496807836e421068be55b6feaad3a4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-03 19:32:30</sys_created_on>
+        <sys_id>b9cde44a83a2021068be55b6feaad3b8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Warehouse Dashboard</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1313534_lva">8bcf0c3a83f9061068be55b6feaad338</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">8bcf0c3a83f9061068be55b6feaad338</sys_scope>
+        <sys_update_name>sp_instance_link_b9cde44a83a2021068be55b6feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 21:59:04</sys_updated_on>
+        <title>Warehouse Dashboard</title>
+        <type>page</type>
+        <url>https://dev252314.service-now.com/$pa_dashboard.do?sysparm_dashboard=e267188f83ea421068be55b6feaad3d7&amp;sysparm_tab=ad8750cf83ea421068be55b6feaad330&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9cde44a83a2021068be55b6feaad3b8"/>
+</record_update>

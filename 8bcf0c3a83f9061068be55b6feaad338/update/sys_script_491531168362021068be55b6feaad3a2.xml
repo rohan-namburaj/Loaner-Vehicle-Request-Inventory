@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1313534_lva_vehicle_tracker</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1313534_lva_vehicle_tracker">vehicle_statusCHANGESTOSent for Servicing^EQ<item display_value="Sent for Servicing" endquery="false" field="vehicle_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Sent for Servicing"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Vehicle Status is Sent for Servicing</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // Add your code here
+    var vehicleServicingRecord = new GlideRecord('x_1313534_lva_vehicle_servicing');
+
+    // Query the servicing table for the current sys_id of the record that is in the vehicle tracker field
+    vehicleServicingRecord.addQuery('vehicle_servicing', current.sys_id);
+
+    // Query the servicing table for records where the tracker status is open
+    vehicleServicingRecord.addQuery('tracker_status', 'open');
+
+    // Execute the query
+    vehicleServicingRecord.query();
+
+    // If no matching records are found from the previous query, create a new record
+    if (!vehicleServicingRecord._next()) {
+        var newServicingRecord = new GlideRecord('x_1313534_lva_vehicle_servicing');
+
+        // Initialize the creation of a new record on the servicing table
+        newServicingRecord.initialize();
+
+        // Set values for the new record
+        newServicingRecord.setValue('vehicle_servicing', current.sys_id);
+        newServicingRecord.setValue('vehicle', current.vehicle);
+        newServicingRecord.setValue('vehicle_status', 'In Service');
+        newServicingRecord.setValue('ticket_status', 'open');
+
+        // Get the current date and set it in the record
+        var currentDate = new GlideDate();
+        newServicingRecord.setValue('date_sent_for_servicing', currentDate);
+
+        // Insert the new record into the database
+        newServicingRecord.insert();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 19:23:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>491531168362021068be55b6feaad3a2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Vehicle Status is Sent for Servicing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1313534_lva">8bcf0c3a83f9061068be55b6feaad338</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">8bcf0c3a83f9061068be55b6feaad338</sys_scope>
+        <sys_update_name>sys_script_491531168362021068be55b6feaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 22:37:57</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=491531168362021068be55b6feaad3a2"/>
+</record_update>

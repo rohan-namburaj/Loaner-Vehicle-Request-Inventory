@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value=" Vehicle Warehouse">8925488783aa421068be55b6feaad3a8</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse and search for vehicle articles and warehouse updates</short_description>
+        <size>md</size>
+        <sp_column display_value="2">39cde44a83a2021068be55b6feaad3b1</sp_column>
+        <sp_page display_value="kb_search">79e23a7ddbd6220099f93691f0b8f53c</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-03 19:32:30</sys_created_on>
+        <sys_id>bdcde44a83a2021068be55b6feaad3b3</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Warehouse Articles</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1313534_lva">8bcf0c3a83f9061068be55b6feaad338</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">8bcf0c3a83f9061068be55b6feaad338</sys_scope>
+        <sys_update_name>sp_instance_link_bdcde44a83a2021068be55b6feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 19:32:16</sys_updated_on>
+        <title>Warehouse Articles</title>
+        <type>kb_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=bdcde44a83a2021068be55b6feaad3b3"/>
+</record_update>

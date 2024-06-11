@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>visible-xs</class_name>
+        <container_class_name/>
+        <name>Vehicle Warehouse Homepage - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="vehicle_warehouse_homepage">61cde00a83a2021068be55b6feaad387</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-03 19:32:30</sys_created_on>
+        <sys_id>71cde44a83a2021068be55b6feaad39e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Vehicle Warehouse Homepage - Container 1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1313534_lva">8bcf0c3a83f9061068be55b6feaad338</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">8bcf0c3a83f9061068be55b6feaad338</sys_scope>
+        <sys_update_name>sp_container_71cde44a83a2021068be55b6feaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-03 20:04:06</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

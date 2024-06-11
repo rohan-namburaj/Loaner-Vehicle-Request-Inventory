@@ -39,37 +39,75 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Maintenance</label>
+            <label>Unavailable</label>
             <language>en</language>
             <name>x_1313534_lva_loaner_vehicle_catalog</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-29 22:24:48</sys_created_on>
+            <sys_created_on>2024-05-31 20:04:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-13 18:13:36</sys_updated_on>
-            <value>Maintenance</value>
+            <sys_updated_on>2024-05-31 20:04:08</sys_updated_on>
+            <value>Unavailable</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Out on Field</label>
+            <label>Decommissioned</label>
             <language>en</language>
             <name>x_1313534_lva_loaner_vehicle_catalog</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-31 20:04:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 20:04:08</sys_updated_on>
+            <value>Decommissioned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_1313534_lva_loaner_vehicle_catalog</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-29 22:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-31 20:04:08</sys_updated_on>
+            <value>Maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Out on Field</label>
+            <language>en</language>
+            <name>x_1313534_lva_loaner_vehicle_catalog</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-04-29 22:24:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-13 18:13:36</sys_updated_on>
+            <sys_updated_on>2024-05-31 20:04:08</sys_updated_on>
             <value>Out on Field</value>
         </sys_choice>
     </sys_choice>
